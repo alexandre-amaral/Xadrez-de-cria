@@ -1,12 +1,19 @@
-csdsakfjaoigfd
-feGaussianBlurhgdf
-ahj
-ah
-feDropShadowf
-hfd
-ahófjhp
-dfpodnsindgs
-dgspodgsoindgg
+*{
+    margin: 0;
+    padding: 0;
+}
 
-anfiofnasoifas
-faspfoinapfas
+header{
+    
+    display: table;
+    background-color: green;
+    width: 100%;
+    height: 100px;
+}
+
+header h1{
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+    text-align: center;
+}
