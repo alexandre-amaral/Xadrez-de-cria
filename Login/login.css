@@ -1,0 +1,23 @@
+.email{
+    margin: 8px;
+}
+
+.senha{
+    margin: 8px;
+
+}
+
+.botaologin{
+   text-align: center;
+}
+
+.login{
+   position: absolute;
+   top: 50%;
+   left:50%;
+   transform: translate(-50%,-50%);
+}
+
+.login h1{
+    text-align: center;
+}
