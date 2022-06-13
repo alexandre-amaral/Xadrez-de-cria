@@ -1,35 +1,120 @@
-body {
+section {
     background: #e8e7de;
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.chessboard {
+    width: 640px;
+    height: 640px;
+    margin: 30px;
+    border: 1px solid #000;
+    border-radius: 1px;
+    background: #e59110;
+    box-shadow:  5px 5px 8px #bebdb6,
+}
+.black {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: #7d945d;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+.white {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: #eeeed5;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+
+header {
+    width: 100%;
+    background-color: #117516;
+    padding: 40px;
+    position: fixed;
+
+
+}
+
+a:link{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.705);
+    font-family: 'Roboto', sans-serif;
+}
+
+a:visited{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.705);
+    font-family: 'Roboto', sans-serif;
+}
+a:active{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.705);
+    font-family: 'Roboto', sans-serif;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.centro{
+
+    position: relative;
+}
+
+.logo {
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+}
+
+.lista{
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #117516;
   }
-  .chessboard {
-      width: 640px;
-      height: 640px;
-      margin: 20px;
-      border: 5px solid #000;
-      border-radius: 4px;
-  background: #e59110;
-  box-shadow:  5px 5px 8px #bebdb6,
-               -5px -5px 8px #ffffff;
-               
+  
+  li {
+    float: left;
   }
-  .black {
-      float: left;
-      width: 80px;
-      height: 80px;
-      background-color: #7d945d;
-        font-size:50px;
-      text-align:center;
-      display: table-cell;
-      vertical-align:middle;
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: middle;
+    padding: 29px;
+    text-decoration: none;
   }
-  .white {
-      float: left;
-      width: 80px;
-      height: 80px;
-      background-color: #eeeed5;
-      font-size:50px;
-      text-align:center;
-      display: table-cell;
-      vertical-align:middle;
-  }
+  
+.login{
+    color: white;
+}
+
+.loginin{
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+}
+
